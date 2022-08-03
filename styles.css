@@ -1,19 +1,168 @@
+/* Paragraph text */
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Heading3 text */
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+}
+
+
+/* Main text area container */
+.heading-container {
+    display: flex;
+    padding: 0px 400px 0px;
+    background-color: #1F2937;
+
+}
+
+/* Main text area item */
+.heading-logo-item {
+    flex: 3;
+    padding: 0px 50px;
+    color: #E5E7EB;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* Main text area item */
+.heading-link-item {
+    flex: 1;
+    padding: 0px 5px;
+    color: #E5E7EB;
+    text-align: center;
+}
+
+/* Main text area container */
+.main-container {
+    display: flex;
+    padding: 20px 400px 50px;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main text area item */
+.main-item {
+    flex: 1;
+    padding: 0px 50px;
+}
+
+/* Main text */
+.main-text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+/* Main heading */
+.main-heading {
+    color: #F9FAf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+
+/* Main sign up */
+.main-sign-up {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+/* Image placeholder box */
+.image-placeholder {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: center;
+    display: flex;
+    background-color: #6d747d;
+    text-align: center;
+    line-height: 200px;
+}
+
+/* Flex information container */
+.information-container {
+    display: flex;
+    padding: 0px 500px 50px;
+}
+
+/* Flex information item */
+.information-item {
+    flex: 1;
+}
+
+.information-image {
+    border: 3px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.information-text {
+    text-align: center;
+    width: 200px;
+}
+
+/* Information header text */
+.information-header {
+    font-size: 36px;
+    text-align: center;
+    color: #1F2937;
+    font-weight: bolder;
+    flex: 4;
+}
+
 /* Quote section */
-quote-section {
+.quote-section {
     background-color: #E5E7EB;
+    padding: 50px 500px;
 }
 
 /* Quote italics text class */
-quote-text {
+.quote-text {
     font-size: 32px;
     font-style: italics;
     color: #1F2937; 
 }
 
 /* Quote author bold text class */
-quote-author {
+.quote-author {
     font-size: 20px;
     font-weight: bold;
     text-align: right;
     color: #1F2937;
 }
+
+/* Call to action container*/
+.coa-container {
+    background-color: #3882F6;
+    margin: 50px 450px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+/* Call-to-action sign-up text */
+.coa-sign-up-text-item {
+
+    color: #E5E7EB;
+    flex: 1;
+    padding: 20px 50px;
+}
+
+/* Call-to-action sign-up button  */
+.coa-sign-up-button-item {
+    color: #E5E7EB;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
