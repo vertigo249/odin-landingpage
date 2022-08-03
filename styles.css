@@ -1,17 +1,17 @@
 /* Quote section */
-.quote-section {
+quote-section {
     background-color: #E5E7EB;
 }
 
 /* Quote italics text class */
-.quote-text {
+quote-text {
     font-size: 32px;
     font-style: italics;
     color: #1F2937; 
 }
 
 /* Quote author bold text class */
-.quote-author {
+quote-author {
     font-size: 20px;
     font-weight: bold;
     text-align: right;
